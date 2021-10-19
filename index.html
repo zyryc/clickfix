@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickFix Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <span class="logo">ClickFix Movies</span>
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#new-movies">New</a></li>
+                <li class="nav-item"><a class="nav-link" href="#popular-movies">On Demand</a></li>
+                <li class="nav-item"><a class="nav-link" href="#action">Action & Adventure</a></li>
+                <li class="nav-item"><a class="nav-link" href="#spy">Spy Movies</a></li>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="main">
+
+        
+        <video autoplay muted loop id="video">
+            <source src="./assets/video/video.mp4" type="video/mp4">
+            
+          </video>
+          <div class="content container">
+            <h1 class="title logo">ClickFix Movies</h1>
+            <p class="sub-title">The best place to watch your favorite movies</p>
+            <a href="#new-movies" class="btn btn-primary">Watch Now</a>  
+        </div>
+    </div>
+
+    </section>
+   <main>
+    <section class="feautured">
+        <div class="container">
+            <div class="grid-3">
+                <div class="col-4">
+                    <div class="featured-item">
+                        <img src="./assets/images/godzilla-movies-movie-poster-godzilla-king-of-the-monsters-wallpaper-preview.jpg" alt="">
+                        <div class="featured-item-info">
+                            <h3>Godzilla</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="featured-item">
+                        <img src="./assets/images/godzilla-vs-kong-godzilla-king-kong-movies-battle-hd-wallpaper-preview.jpg" alt="">
+                        <div class="featured-item-info">
+                            <h3>Godzilla vs Kong</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="featured-item">
+                        <img src="./assets/images/avengers-endgame-iron-man-robert-downey-jr-captain-america-chris-evans-hd-wallpaper-preview.jpg" alt="">
+                        <div class="featured-item-info">
+                            <h3>Avengers EndGame</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="new-movies">
+        <div class="container">
+            <h2 class="section-title">New Movies</h2>
+            <div class="grid-3">
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/godzilla-movies-movie-poster-godzilla-king-of-the-monsters-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Godzilla</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/godzilla-vs-kong-godzilla-king-kong-movies-battle-hd-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Godzilla Vs Kong</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/suicide-squad-margot-robbie-dc-comics-harley-quinn-wallpaper-preview.jpg" alt="">
+                    <div class="movie-item-info">
+                        <h3>The Suicide Squad</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur  Quisquam, quia.</p>
+                        <a href="#" class="btn btn-primary">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <section id="popular-movies">
+        <div class="container">
+            <h2 class="section-title">On Demand</h2>
+            <div class="grid-4">
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/inception-leonardo-dicaprio-movie-posters-2400x3500-entertainment-movies-hd-art-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>The Inception</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/jurassic-park-logos-movie-posters-1972x3014-entertainment-movies-hd-art-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Jurassic Park</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/movies-the-lord-of-the-rings-aragorn-viggo-mortensen-movie-posters-posters-the-return-of-the-king-entertainment-movies-hd-art-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Lord of the Rings</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/godzilla-vs-kong-godzilla-king-kong-movies-battle-hd-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Godzilla vs Kong</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="action">
+        <div class="container">
+            <h2 class="section-title">Action & Adventure</h2>
+            <div class="grid-6">
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/scarlett-johansson-women-black-widow-mcu-marvel-comics-hd-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Black Widow</h3>
+                            <br>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/movies-the-lord-of-the-rings-aragorn-viggo-mortensen-movie-posters-posters-the-return-of-the-king-entertainment-movies-hd-art-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Lord of the rings</h3>
+                            <br>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/movies-movie-poster-portrait-display-fan-art-2001-a-space-odyssey-hd-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>2001</h3>
+                            <br>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/movie-poster-aliens-sigourney-weaver-h-r-giger-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Aliens</h3>
+                            <br>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/jurassic-park-logos-movie-posters-1972x3014-entertainment-movies-hd-art-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Jurrasic Park</h3>
+                            <br>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/joker-pop-art-suicide-squad-movie-poster-wallpaper-preview.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Suicide Squad</h3>
+                            <br>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+    </section>
+    <section id="spy">
+        
+        <div class="container">
+            <h2 class="section-title">Spy movies & Adventure</h2>
+            <div class="grid-6">
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/11125620.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Adams Family 2</h3>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/7097896.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Venom</h3>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/8110232.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Mary Saints newark</h3>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/9357050.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Dear Evan Habsen</h3>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/9376612.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>Shang - chi</h3>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="movie-item">
+                        <img src="./assets/images/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_FMjpg_UX1000_.jpg" alt="">
+                        <div class="movie-item-info">
+                            <h3>No time to die</h3>
+                            <a href="#" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+    
+    </section>
+   </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
